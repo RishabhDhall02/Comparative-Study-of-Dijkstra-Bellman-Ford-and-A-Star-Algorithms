@@ -1,4 +1,4 @@
-# Comparative Study of Dijkstra, Bellman-Ford, and A*
+# Comparative Study of Dijkstra, Bellman-Ford, and A* Algorithms
 
 ## Project Overview
 This project is an in-depth exploration of classical graph algorithms for shortest path computation. It focuses on:
