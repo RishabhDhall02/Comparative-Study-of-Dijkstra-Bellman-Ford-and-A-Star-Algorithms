@@ -33,5 +33,5 @@ The project benchmarks these algorithms using both randomly generated graphs and
 - `csv`, `heapq`, `math`, `random` (built-in)
 
 # File Structure
-- `part1.py`: Compares Dijkstra and Bellman-Ford Algorithms (based on randomly generated graphs)
-- `part2.py`: Compares Dijkstra and A* Algorithms (based on the London Subway system)
+- `part1.py`: Comparison between Dijkstra's Algorithm and Bellman-Ford's Algorithm (based on randomly generated graphs)
+- `part2.py`: Comparison between Dijkstra's Algorithm and A* Algorithm (based on the London Subway system)
