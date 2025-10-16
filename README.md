@@ -1,5 +1,10 @@
 # Comparative Study of Dijkstra, Bellman-Ford, and A* Algorithms
 
+## About
+This repository is an academic project showcasing a comparative study of shortest-path algorithms, including Dijkstra, Bellman-Ford, and A*. It demonstrates the implementation, analysis, and performance evaluation of these algorithms using both synthetic and real-world datasets (e.g., the London Subway system).  
+
+This project is intended as a demonstration of algorithm design and analysis for educational purposes. The Python scripts provided can be run directly, but this is **not** a production-ready library and does not include installation or package support.
+
 ## Project Overview
 This project explores classical graph algorithms for shortest path computation, focusing on performance comparison and real-world applications. The main algorithms studied are:
 
@@ -26,7 +31,7 @@ The project benchmarks these algorithms using both randomly generated graphs and
 
 ---
 
-## Dependencies
+## Project Requirements
 - Python 3.8+
 - NumPy
 - Matplotlib
@@ -37,6 +42,8 @@ The project benchmarks these algorithms using both randomly generated graphs and
 ## File Structure
 - `part1.py`: Comparison between Dijkstra's Algorithm and Bellman-Ford's Algorithm (based on randomly generated graphs)
 - `part2.py`: Comparison between Dijkstra's Algorithm and A* Algorithm (based on the London Subway system)
+- `london_stations.csv`: Station IDs, names, latitudes, and longitudes
+- `london_connections.csv`: Edges between stations
 
 ---
 
@@ -49,3 +56,6 @@ The project benchmarks these algorithms using both randomly generated graphs and
 - Algorithm performance depends on multiple factors: graph density, number of nodes/edges, presence of negative weights, and choice of heuristic.
 - Choosing the appropriate shortest-path algorithm requires balancing speed, accuracy, and suitability for the specific graph scenario.
 
+---
+
+## License
