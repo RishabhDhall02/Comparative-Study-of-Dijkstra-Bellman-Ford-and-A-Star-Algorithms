@@ -61,3 +61,9 @@ The project benchmarks these algorithms using both randomly generated graphs and
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact
+
+For questions or feedback, please contact [Rishabh Dhall](mailto:rishabhdhall02@gmail.com).
