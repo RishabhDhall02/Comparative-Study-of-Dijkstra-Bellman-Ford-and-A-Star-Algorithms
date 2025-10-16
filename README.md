@@ -35,7 +35,7 @@ The project benchmarks these algorithms using both randomly generated graphs and
 - Python 3.8+
 - NumPy
 - Matplotlib
-- `csv`, `heapq`, `math`, `random` (built-in)
+- `csv`, `heapq`, `math`, `random`, `timeit` (built-in)
 
 ---
 
