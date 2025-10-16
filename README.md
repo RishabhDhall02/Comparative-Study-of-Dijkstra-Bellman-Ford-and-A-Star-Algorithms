@@ -7,7 +7,7 @@ This project explores classical graph algorithms for shortest path computation, 
 - **Bellman-Ford Algorithm** – finds shortest paths even with negative edge weights.
 - **A\* Algorithm** – heuristic-driven pathfinding optimized for spatial networks.
 
-The project benchmarks these algorithms using both generated graphs and real-world data from the London Underground.
+The project benchmarks these algorithms using both randomly generated graphs and real-world data from the London Underground.
 
 ---
 
@@ -17,7 +17,7 @@ The project benchmarks these algorithms using both generated graphs and real-wor
   - Standard Dijkstra
   - Dijkstra with limited relaxations
   - Bellman-Ford for positive and negative weights
-  - A\* with customizable heuristics
+  - A* with customizable heuristics
 - Real-world London Underground graph:
   - CSV parser for station data and connections
   - Haversine distance-based heuristics for spatial pathfinding
