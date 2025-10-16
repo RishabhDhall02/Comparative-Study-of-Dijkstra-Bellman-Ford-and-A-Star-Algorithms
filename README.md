@@ -1,31 +1,37 @@
 # Comparative Study of Dijkstra, Bellman-Ford, and A* Algorithms
 
 ## Project Overview
-This project is an in-depth exploration of classical graph algorithms for shortest path computation. It focuses on:
+This project explores classical graph algorithms for shortest path computation, focusing on performance comparison and real-world applications. The main algorithms studied are:
 
-- **Dijkstra's Algorithm** – efficient for positive-weighted graphs.
-- **Bellman-Ford Algorithm** – handles negative weights and detects negative cycles.
-- **A\* Algorithm** – heuristic-driven pathfinding, optimized for spatial graphs (e.g., London Subway).
+- **Dijkstra's Algorithm** – finds shortest paths on graphs with non-negative weights.
+- **Bellman-Ford Algorithm** – finds shortest paths even with negative edge weights.
+- **A\* Algorithm** – heuristic-driven pathfinding optimized for spatial networks.
 
-The goal is to compare the performance, behavior, and accuracy of these algorithms under different scenarios, including:
+The project benchmarks these algorithms using both generated graphs and real-world data from the London Underground.
 
-- Random graphs with positive weights.
-- Real-world spatial networks (London subway system).
-- Varying heuristics in A\* to test efficiency and optimality.
+---
 
 ## Features
-- Weighted graph representation (undirected graphs).
-- Support for positive and negative edge weights.
-- Multiple variations of Dijkstra and Bellman-Ford (limited relaxation, all-pairs).
-- A\* implementation with customizable heuristics.
-- Real-world London subway dataset analysis.
-- Runtime benchmarking and visualizations using Matplotlib.
+- Implementation of weighted graph structure (`WeightedGraph`) supporting node and edge operations.
+- Multiple shortest path algorithm variants with:
+  - Standard Dijkstra
+  - Dijkstra with limited relaxations
+  - Bellman-Ford for positive and negative weights
+  - A\* with customizable heuristics
+- Real-world London Underground graph:
+  - CSV parser for station data and connections
+  - Haversine distance-based heuristics for spatial pathfinding
+- Benchmarking of algorithm runtimes with Matplotlib visualizations
+- Generation of random, good heuristic, and bad heuristic node pairs
+
+---
 
 ## Dependencies
 - Python 3.8+
 - NumPy
 - Matplotlib
-- CSV module (built-in)
-- `heapq` and `random` (built-in)
+- `csv`, `heapq`, `math`, `random` (built-in)
 
-
+# File Structure
+- `part1.py`: Compares Dijkstra and Bellman-Ford Algorithms (based on randomly generated graphs)
+- `part2.py`: Compares Dijkstra and A* Algorithms (based on the London Subway system)
