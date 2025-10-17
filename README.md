@@ -66,4 +66,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For questions or feedback, please contact [Rishabh Dhall](mailto:rishabhdhall02@gmail.com).
+For questions or feedback, please contact [Rishabh Dhall](mailto:rishabhdhall02@gmail.com) or [Chamath De Silva](mailto:chamathdesilva975@gmail.com).
